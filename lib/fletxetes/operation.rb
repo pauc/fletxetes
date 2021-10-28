@@ -4,7 +4,7 @@
 require "dry/monads"
 require "dry/matcher/result_matcher"
 
-module AppPrototype
+module Fletxetes
   class Operation
     include Dry::Monads[:result, :try]
 

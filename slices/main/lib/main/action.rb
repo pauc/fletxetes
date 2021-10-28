@@ -1,9 +1,9 @@
 # auto_register: false
 # frozen_string_literal: true
 
-require "app_prototype/action"
+require "fletxetes/action"
 
 module Main
-  class Action < AppPrototype::Action
+  class Action < Fletxetes::Action
   end
 end

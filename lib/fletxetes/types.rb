@@ -3,7 +3,7 @@
 
 require "dry/types"
 
-module AppPrototype
+module Fletxetes
   module Types
     include Dry.Types
   end

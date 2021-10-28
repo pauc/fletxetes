@@ -3,7 +3,7 @@
 
 require "dry/transformer"
 
-module AppPrototype
+module Fletxetes
   module Functions
     extend Dry::Transformer::Registry
 
