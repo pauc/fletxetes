@@ -1,0 +1,22 @@
+require:
+  - rubocop-performance
+  - rubocop-rake
+  - rubocop-rspec
+  - rubocop-sequel
+
+AllCops:
+  NewCops: enable
+
+Style/BlockDelimiters:
+  EnforcedStyle: semantic
+  Exclude: spec/factories
+
+Style/Documentation:
+  Enabled: false
+
+Style/RedundantReturn:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+  ConsistentQuotesInMultiline: true
