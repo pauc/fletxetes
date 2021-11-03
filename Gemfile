@@ -34,7 +34,6 @@ gem "dry-types", "~> 1.0"
 gem "dry-validation", "~> 1.4"
 gem "erbse", "~> 0.1"
 gem "i18n", "~> 1.8"
-gem "slim", "~> 4.0"
 
 # Development/test
 group :development, :test do
@@ -52,12 +51,5 @@ end
 
 # Test
 group :test do
-  gem "capybara", "~> 3.0"
-  gem "capybara-screenshot", "~> 1.0"
-  gem "cuprite", "~> 0.8"
-  gem "database_cleaner-sequel", "~> 2.0"
-  gem "puffing-billy", "~> 2.2"
-  gem "rom-factory", "~> 0.10"
   gem "rspec", "~> 3.9"
-  gem "simplecov", "~> 0.17"
 end
