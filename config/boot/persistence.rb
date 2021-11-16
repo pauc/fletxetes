@@ -16,7 +16,7 @@ Hanami.application.register_bootable :persistence, namespace: true do |container
 
     register("config", rom_config)
     register("db", rom_config.gateways[:default].connection)
-    rom_config.gateways[:default].use_logger(Logger.new($stdout))
+    rom_config.gateways[:default].use_logger(Hanami.application["logger"])
   end
 
   start do

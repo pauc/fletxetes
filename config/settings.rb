@@ -5,8 +5,9 @@ require "hanami/application/settings"
 
 module Fletxetes
   class Settings < Hanami::Application::Settings
-    # Framework
+    # Logging
     setting :log_to_stdout, constructor: Types::Params::Bool, default: false
+    setting :log_level,     constructor: Types::String,       default: "info"
 
     # Database
     setting :database_url, constructor: Types::String
