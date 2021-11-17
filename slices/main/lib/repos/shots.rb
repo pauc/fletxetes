@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-module Fletxetes
+module Main
   module Repos
-    class Shots < Repository[:shots]
+    class Shots < Fletxetes::Repository[:shots]
     end
   end
 end

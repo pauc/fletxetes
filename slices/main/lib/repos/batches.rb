@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-module Fletxetes
+module Main
   module Repos
-    class Batches < Repository[:batches]
+    class Batches < Fletxetes::Repository[:batches]
     end
   end
 end

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-RSpec.describe Fletxetes::Repos::Shots, :db do
-  subject(:repo) { described_class.new }
+RSpec.describe Main::Repos::Shots, :db do
+  subject(:repo) { Main::Slice["repos.shots"] }
   let(:batch) { repo.batches.command(:create).call({}) }
 
   describe "#create" do
