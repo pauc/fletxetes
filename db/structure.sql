@@ -27,6 +27,9 @@ SET default_table_access_method = heap;
 CREATE TABLE public.batches (
     id bigint NOT NULL,
     distance double precision,
+    punctuation integer DEFAULT 0 NOT NULL,
+    max_shots integer DEFAULT 0 NOT NULL,
+    shots_count integer DEFAULT 0 NOT NULL,
     created_at timestamp without time zone NOT NULL
 );
 

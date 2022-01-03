@@ -24,6 +24,19 @@ GIT
       hanami-utils (~> 2.0.alpha)
       zeitwerk (~> 2.4)
 
+GIT
+  remote: https://github.com/pauc/cli.git
+  revision: 7c3f14d91ef0dbdab41bf1f2e3a1e7ecbcdc1b0f
+  branch: fix-command-db-rollback
+  specs:
+    hanami-cli (2.0.0.alpha3)
+      bundler (~> 2.1)
+      dry-cli (~> 0.6)
+      dry-files (~> 0.1)
+      dry-inflector (~> 0.2)
+      rake (~> 13.0)
+      rom-sql (~> 3.5.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -115,12 +128,6 @@ GEM
       ffi
       guard (~> 2.3)
       spoon
-    hanami-cli (2.0.0.alpha3)
-      bundler (~> 2.1)
-      dry-cli (~> 0.6)
-      dry-files (~> 0.1)
-      dry-inflector (~> 0.2)
-      rake (~> 13.0)
     hanami-router (2.0.0.alpha5)
       mustermann (~> 1.0)
       mustermann-contrib (~> 1.0)
@@ -265,7 +272,7 @@ DEPENDENCIES
   dry-validation (~> 1.4)
   guard-rack (~> 2.2)
   hanami (~> 2.0.alpha)!
-  hanami-cli (~> 2.0.0.alpha)
+  hanami-cli!
   hanami-controller (~> 2.0.alpha)!
   hanami-router (~> 2.0.0.alpha)
   hanami-utils (~> 2.0.0.alpha)
